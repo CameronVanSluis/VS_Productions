@@ -43,7 +43,7 @@ header h1{
     margin-top: 0px;
     /* background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ; */
     /* background-image: url(/img/TitleBackground.svg); */
-    background-image: url(../img/TitleBackground2.png);
+    background-image: url(../img/TitleBackground2-3.svg);
     background-size: 435px 80px;
     width: 395px;
     height: 60px;
@@ -139,7 +139,27 @@ header a:visited{
 
 
 
+#myBtn {
+   
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 25px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: none;
+    background-image: url(../img/TitleBackground8-2.svg);
+    width: 76px;
+    height: 66px;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    transition: .1s ease-in-out;
+  }
 
+#myBtn:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 
 
@@ -170,7 +190,7 @@ header a:visited{
     text-align: center;
     bottom: 0;
     margin-bottom: -50px;
-    margin-top: -30px;
+    /* margin-top: -30px; */
     
 }
 
@@ -181,7 +201,7 @@ header a:visited{
     background: #B3C5D7;
     border: 2px solid rgb(87, 136, 192);
     height: auto;
-    border-radius: 25px;   
+    /* border-radius: 25px;    */
 }
 
 .landingwords h2{
@@ -190,17 +210,23 @@ header a:visited{
     font-family: 'Times New Roman', serif;
     padding: 15px 0;
     color: white;
-    border-radius: 25px 25px 0 0;
+    /* border-radius: 25px 25px 0 0; */
     /* margin-top: 20px; */
 }
 
 .landingtext p{
     margin: 12px 8px 12px 8px;
     font-size: 1.2em;
-    line-height: 150%;
+    line-height: 160%;
     padding: 0 28px;
     /* border: 2px solid #6567b1; */
 }
+
+.boldText{
+    font-weight: bold;
+    font-size: 1.21em;
+}
+
 
 .landingphoto{
     float: right;
@@ -213,8 +239,10 @@ header a:visited{
 .selfie{
     margin-left: 70px;
     margin-bottom: 50px;
-    border-radius: 25px;
-    border: 2px solid rgb(87, 136, 192)
+    /* border-radius: 25px; */
+    border: 2px solid rgb(87, 136, 192);
+
+    
 }
 
 
@@ -273,9 +301,9 @@ header a:visited{
     padding: 5px 0;
     /* border: 2px solid rgb(87, 136, 192); */
     /* background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ; */
-    background-image: url(../img/TitleBackground4.png);
+    background-image: url(../img/TitleBackground4-4.svg);
     /* border-radius: 30px 0; */
-    width: 250px;
+    width: 245px;
     transition: .2s ease-in-out;
 }
 
@@ -298,7 +326,7 @@ header a:visited{
 
 .animation, .photoshop, .illustrator, .photography, .wordpress{
     width: 200px;
-    margin: 30px 20px;
+    margin: 30px 20px 50px 20px;
 
 }
 
@@ -307,13 +335,14 @@ header a:visited{
     font-family: 'Times New Roman', serif;
     color: white;
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
-    width: 190px;
+    width: 200px;
     height: 50px;
     border: 2px solid rgb(87, 136, 192);
-    border-radius: 30px 0;
+    border-bottom: none;
+    /* border-radius: 30px 0; */
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-size: 1.9em;
     line-height: 1.6em;
 
@@ -334,15 +363,16 @@ header a:visited{
 }
 
 .image1{
-    border-radius: 20px;
+    /* border-radius: 20px; */
     margin: 0 auto;
     border: 2px solid rgb(87, 136, 192);
+    border-top: none;
 }
 
 section a{
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     border: 2px solid rgb(87, 136, 192);
-    border-radius: 50px;
+    /* border-radius: 50px; */
     color: white;
     text-decoration: none;
     font-size: 2.4em;
@@ -466,7 +496,7 @@ footer h1{
     margin: 0 auto;
     /* background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ; */
     /* background-image: url(/img/TitleBackground.svg);*/
-    background-image: url(../img/TitleBackground2.png);
+    background-image: url(../img/TitleBackground2-3.svg);
     background-size: 350px 65px;
     width: 310px;
     height: 45px;
@@ -520,7 +550,7 @@ footer a:visited{
     background: #D8E1E9;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 0px;
+    /* grid-column-gap: 50px; */
     grid-row-gap: 40px;
     padding: 0 20px 30px 20px;
     justify-items: center;
@@ -538,10 +568,10 @@ footer a:visited{
     font-family: 'Times New Roman', serif;
     color: white;
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
-    width: 215px;
+    width: 99%;
     height: 53px;
     border: 2px solid rgb(87, 136, 192);
-    border-radius: 30px 0;
+    /* border-radius: 30px 0; */
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -560,32 +590,33 @@ footer a:visited{
     background: #B3C5D7;
     border: 2px solid rgb(87, 136, 192);
     padding: 20px 15px 0 15px;
-    border-radius: 10%;
+    /* border-radius: 10%; */
 }
 
 .animation2{
-    grid-column: 1 / 2;
+    grid-column: 1 / 3;
     grid-row: 1;
+    
 }
 
 .photoshop2{
-    grid-column: 2 / 3;
-    grid-row: 1;
+    grid-column: 1 / 2;
+    grid-row: 2;
    
 }
 
 .illustrator2{
-    grid-column: 1 / 2;
-    grid-row: 2;
-}
-
-.HandMadeArt2{
     grid-column: 2 / 3;
     grid-row: 2;
 }
 
+.HandMadeArt2{
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
 .photography2{
-    grid-column: 1 / 3;
+    grid-column: 2 / 3;
     grid-row: 3;
 }
 
@@ -621,7 +652,7 @@ footer a:visited{
     font-weight: bold;
     font-size: 18px;
     transition: 0.2s ease-in-out;
-    border-radius: 0 3px 3px 0;
+    /* border-radius: 0 3px 3px 0; */
     user-select: none;
     font-size: 1.7em;
     border: 1px solid rgb(87, 136, 192);
@@ -630,7 +661,7 @@ footer a:visited{
   /* Position the "next button" to the right */
   .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    /* border-radius: 3px 0 0 3px; */
   }
   
   /* Grow On hover */
@@ -751,7 +782,7 @@ footer a:visited{
 /*** About Page Styles ***/
 
 .about-title h2{
-    width: 250px;
+    width: 245px;
 }
 
 .about-container{
@@ -795,7 +826,7 @@ footer a:visited{
 
 .about-words{
     background: #B3C5D7;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     height: auto;
 }
 
@@ -806,12 +837,12 @@ footer a:visited{
     padding: 15px 0;
     margin-bottom: 20px;
     color: white;
-    border-radius: 25px 25px 0 0;
+    /* border-radius: 25px 25px 0 0; */
     
 }
 
 .about-selfie1, .about-selfie2, .about-selfie3, .about-selfie4{
-    border-radius: 20px;
+    /* border-radius: 20px; */
     border: 2px solid rgb(87, 136, 192);
 }
 
@@ -820,7 +851,7 @@ footer a:visited{
     grid-row: 1 / 3;
     margin-bottom: 30px;
     border: 2px solid rgb(87, 136, 192);
-    border-radius: 26px;
+    /* border-radius: 26px; */
 }
 
 .about-selfie1{
@@ -860,10 +891,11 @@ footer a:visited{
 .about-skills1, .about-skills2{
     grid-column: 4 / 5;
     background: #B3C5D7;
-    border-radius: 25px 25px 0 0;
+    /* border-radius: 25px 25px 0 0; */
     width: 100%;
     margin: 0 auto;
-    
+ 
+    border: 2px solid rgb(87, 136, 192);
 }
 
 .about-skills1{
@@ -885,10 +917,10 @@ footer a:visited{
     font-size: 2.2em;
     color: white;
     padding: 5px 0;
-    border: 2px solid rgb(87, 136, 192);
+    /* border: 2px solid rgb(87, 136, 192); */
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
-    border-radius: 30px 0;
-    width: 98%;
+    /* border-radius: 30px 0; */
+    width: 100%;
 }
 
 .about-skills1 ul, .about-skills2 ul{
@@ -901,10 +933,10 @@ footer a:visited{
 }
 
 
-.about-skills-title1{
+/* .about-skills-title1{
     position: relative;
-    bottom: 3px;
-}
+    bottom: 0px;
+} */
 
 @media (max-width: 920px){
     .about-container{
@@ -972,9 +1004,9 @@ footer a:visited{
         width: 80%;
     }
 
-    .about-skills1 h3, .about-skills2 h3{
+    /* .about-skills1 h3, .about-skills2 h3{
         width: 99%;
-    }
+    } */
 
     .about-skills1{
         grid-column: 1 / -1;
@@ -1102,7 +1134,7 @@ footer a:visited{
 /*** Contact Page Styles ***/
 
 .contact-title h2{
-    width: 250px;
+    width: 245px;
 }
 
 .contact-container{
@@ -1118,7 +1150,7 @@ footer a:visited{
     /* margin-left:  auto; */
     background: #B3C5D7;
     border: 2px solid rgb(87, 136, 192);
-    border-radius: 26px;
+    /* border-radius: 26px; */
     height: auto;
     width: 600px;
     max-width: 600px;
@@ -1129,7 +1161,7 @@ footer a:visited{
     /* margin-right:  auto; */
     background: #B3C5D7;
     /* border: 2px solid rgb(87, 136, 192); */
-    border-radius: 25px 25px 0 0;
+    /* border-radius: 25px 25px 0 0; */
     margin-left: 20px;
     text-align: center;
 }
@@ -1140,7 +1172,7 @@ footer a:visited{
     font-family: 'Times New Roman', serif;
     padding: 15px 0;
     color: white;
-    border-radius: 25px 25px 0 0;
+    /* border-radius: 25px 25px 0 0; */
 }
 
 
@@ -1154,7 +1186,7 @@ footer a:visited{
     padding: 5px 0;
     border: 2px solid rgb(87, 136, 192);
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
-    border-radius: 30px 0;
+    /* border-radius: 30px 0; */
     width: 99%;
 }
 
@@ -1171,16 +1203,17 @@ footer a:visited{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     padding: 5px;
-    border: 2px solid rgb(87, 136, 192);
+    /* border: 2px solid rgb(87, 136, 192); */
     color: white;
-    background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
+    /* background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ; */
+    background-image: url(../img/TitleBackground7-2.svg);
     width: 160px;
-    height: 35px;
-    border-radius:  50% / 50%;
+    height: 25px;
+    /* border-radius:  50% / 50%; */
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
-    line-height: 1.4em;
+    line-height: 1em;
 }
 
 .contact-aside p{
@@ -1399,13 +1432,13 @@ input[type=text], select, textarea, #email {
         height: 250px;
     }
     .logo{
-        top: 45px;
+        top: 12px;
     }
     .home-header{
-        height: 255px;
+        height: 221px;
     }
     .my-work-header{
-        height: 350px;
+        height: 325px;
     }
     .landing{
         padding-top: 0;
@@ -1417,6 +1450,11 @@ input[type=text], select, textarea, #email {
         /* width: 185px; */
         /* padding: 3px 0; */
         margin-top: 40px;
+    }
+
+    #myBtn{
+        right: 15px;
+        bottom: 15px;    
     }
 }
 
@@ -1471,13 +1509,13 @@ input[type=text], select, textarea, #email {
         height: 315px;
     }
     .home-header{
-        height: 315px;
+        height: 281px;
     }
     header h1{
         margin-top: 60px;
     }
     .my-work-header{
-        height: 430px;
+        height: 385px;
     }
 }
 
@@ -1499,7 +1537,7 @@ input[type=text], select, textarea, #email {
     }
 
     .logo{
-        top: 55px;
+        top: 13px;
     }
 }
 
@@ -1615,7 +1653,7 @@ input[type=text], select, textarea, #email {
     display: block;
     min-height: 35px;
     min-width: 76px;
-    background-image: url(../img/TitleBackground6.png);
+    background-image: url(../img/TitleBackground6-2.svg);
     z-index: 200;
 }
 
@@ -1686,7 +1724,7 @@ input[type=text], select, textarea, #email {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 202; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -1729,7 +1767,7 @@ input[type=text], select, textarea, #email {
     transform: scale(1.2);
     text-decoration: none;
     cursor: pointer;
-    text-shadow: 0px 3px 4px rgb(0, 0, 0);
+    /* text-shadow: 0px 3px 4px rgb(0, 0, 0); */
 }
 
   .modal-button{
@@ -1738,7 +1776,7 @@ input[type=text], select, textarea, #email {
     margin-top: 6px;
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     border: 1px solid #7393B7;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     color: white;
     text-decoration: none;
     font-size: 1.1em;

@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Copse%7CMerriweather" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
     <title>VS Productions - About</title>
 </head>
 <body>
@@ -45,7 +46,8 @@
         
     </header>
 
-    
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
     <figure class="figure1-2">
     <img class="photo1-2" src="img/beach-sunset.jpg" alt="Beach Sunset">
     </figure>
@@ -56,18 +58,12 @@
     <section class="about-container">
       <div class="about-text">
         <div class="about-words">
-    <h3>Who I Am</h3>
+    <h3>Biography</h3>
     <p class="about-text-block">My name is <strong>Cameron van Sluis,</strong> and I'm a Multimedia Designer from Vancouver Washington. I specialize in <strong>Video Production & Motion Graphics.</strong></p>
 
     <p class="about-text-block">I love to express myself through story and to subvert expectations of the viewer. Video is my favorite creative medium because it allows me to do that within the digital realm. Entertaining the audience is top priority when it comes to my creative practice. I strongly believe that great audio is imperative to producing great videos. That’s why I utilize my experience in sound design and mixing to incorporate an “audio first” approach to many of my projects.</p>
     
-    <p class="about-text-list"><span class="about-text-list-header">My Core Values:</span><br>
-      <strong>Creativity: </strong>Entertaining my audience is what drives me to produce my best content.<br>
-      <strong>Determination:  </strong>I am very detailed oriented, spending extra time fine-tuning and perfecting. I employ strict planning and organization with every project.<br>
-      <strong>Leadership: </strong>I am very accountable in team projects, and I often undertake the role of leading and coordinating others.<br>
-      <strong>Growth: </strong>I seek to grow as a content developer and hone my skills in order to better suit myself for the ever-changing job market.<br>
-      <strong>Fun: </strong>My favorite projects are those with a lot of creative potential.<br>
-    </p>
+    
 
   
     <p><span class="about-text-list-header">Education:</span><br>
@@ -83,6 +79,16 @@
     - Member of Phi Theta Kappa Honors Society<br>
     - Microsoft Technology Associate: Intro to Programming Using Python (Nov. 2019)
     </p>
+
+    <p class="about-text-list"><span class="about-text-list-header">My Core Values:</span><br>
+      <strong>Creativity: </strong>Entertaining my audience is what drives me to produce my best content.<br>
+      <strong>Determination:  </strong>I am very detailed oriented, spending extra time fine-tuning and perfecting. I employ strict planning and organization with every project.<br>
+      <strong>Leadership: </strong>I am very accountable in team projects, and I often undertake the role of leading and coordinating others.<br>
+      <strong>Growth: </strong>I seek to grow as a content developer and hone my skills in order to better suit myself for the ever-changing job market.<br>
+      <strong>Fun: </strong>My favorite projects are those with a lot of creative potential.<br>
+    </p>
+
+
 
           </div>
     </div>
@@ -163,7 +169,27 @@
 
 
 
-   
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
     
 
 
