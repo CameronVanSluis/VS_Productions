@@ -552,7 +552,7 @@ footer a:visited{
     grid-template-columns: repeat(2, 1fr);
     /* grid-column-gap: 50px; */
     grid-row-gap: 40px;
-    padding: 0 20px 30px 20px;
+    padding: 0 100px 30px 100px;
     justify-items: center;
 }
 
@@ -731,7 +731,7 @@ footer a:visited{
 
 /** Slideshow Styles End **/
 
-@media (max-width: 970px){
+@media (max-width: 1150px){
 #my-work2{
     grid-template-columns: repeat(1, 1fr);
 }
