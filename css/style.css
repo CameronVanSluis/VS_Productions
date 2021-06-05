@@ -733,6 +733,13 @@ footer a:visited{
 
 @media (max-width: 1150px){
 #my-work2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media (max-width: 970px){
+#my-work2{
     grid-template-columns: repeat(1, 1fr);
 }
 
