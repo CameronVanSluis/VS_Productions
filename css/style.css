@@ -925,6 +925,7 @@ footer a:visited{
     color: white;
     padding: 5px 0;
     /* border: 2px solid rgb(87, 136, 192); */
+    /* border-bottom: 2px solid rgb(87, 136, 192); */
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     /* border-radius: 30px 0; */
     width: 100%;
@@ -952,6 +953,8 @@ footer a:visited{
     position: relative;
     bottom: 0px;
 } */
+
+
 
 @media (max-width: 920px){
     .about-container{
@@ -1176,6 +1179,7 @@ footer a:visited{
     /* margin-right:  auto; */
     background: #B3C5D7;
     /* border: 2px solid rgb(87, 136, 192); */
+    border: 2px solid rgb(87, 136, 192);
     /* border-radius: 25px 25px 0 0; */
     margin-left: 20px;
     text-align: center;
@@ -1199,10 +1203,10 @@ footer a:visited{
     font-size: 2.2em;
     color: white;
     padding: 5px 0;
-    border: 2px solid rgb(87, 136, 192);
+    /* border: 2px solid rgb(87, 136, 192); */
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     /* border-radius: 30px 0; */
-    width: 99%;
+    width: 100%;
 }
 
 .contact-aside ul{
