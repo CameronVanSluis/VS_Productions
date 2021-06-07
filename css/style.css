@@ -1477,12 +1477,12 @@ input[type=text], select, textarea, #email {
     }
 }
 
-@media (max-width: 560px){
+@media (max-width: 580px){
   
     .landingtext p{
-        font-size: 1.3em;
-        padding: 10px;
-        margin-top: 0;
+        font-size: 1em;
+        /* padding: 10px; */
+        /* margin-top: 0; */
     }
     .landingwords{
         width: 90%;
