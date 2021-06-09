@@ -36,10 +36,10 @@ header{
 }
 
 header h1{
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
     letter-spacing: 1px;
-    font-size: 3.19em;
-    margin: 0 auto;
+    font-size: 2.85em;
+    margin: 0 ato;
     margin-top: 0px;
     /* background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ; */
     /* background-image: url(/img/TitleBackground.svg); */
@@ -53,6 +53,7 @@ header h1{
     
     /* border: 2px solid rgb(87, 136, 192); */
     font-style: normal;
+    line-height: 1.4em;
 }
 
 .logo{
@@ -207,7 +208,9 @@ header a:visited{
 .landingwords h2{
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     width: 100%;
-    font-family: 'Times New Roman', serif;
+    font-size: 2.3em;
+    line-height: 1.2em;
+    font-family: 'Merriweather', serif;
     padding: 15px 0;
     color: white;
     /* border-radius: 25px 25px 0 0; */
@@ -294,7 +297,8 @@ header a:visited{
 }
 
 .my-work-title h3, .my-work-title2 h2{
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
+    font-size: 2.38em;
     position: relative;
     bottom: 40px;
     color: white;
@@ -332,7 +336,7 @@ header a:visited{
 
 .animation-text, .photoshop-text, .illustrator-text,
 .photography-text, .wordpress-text{
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
     color: white;
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     width: 200px;
@@ -343,8 +347,8 @@ header a:visited{
     text-align: center;
     margin: 0 auto;
     margin-bottom: 0px;
-    font-size: 1.9em;
-    line-height: 1.6em;
+    font-size: 1.7em;
+    line-height: 1.8em;
 
 }
 
@@ -491,8 +495,8 @@ footer{
 
 
 footer h1{
-    font-family: 'Times New Roman', serif;
-    font-size: 2.7em;
+    font-family: 'Merriweather', serif;
+    font-size: 2.36em;
     margin: 0 auto;
     /* background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ; */
     /* background-image: url(/img/TitleBackground.svg);*/
@@ -565,7 +569,7 @@ footer a:visited{
 
 .my-work-subheading{
     padding: 0px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
     color: white;
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     width: 99%;
@@ -575,8 +579,8 @@ footer a:visited{
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
-    font-size: 2.1em;
-    line-height: 1.55em;
+    font-size: 2em;
+    line-height: 1.7em;
     letter-spacing: 0.5px;
 }
 
@@ -840,7 +844,8 @@ footer a:visited{
 .about-words h3{
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     width: 100%;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
+    font-size: 2.38em;
     padding: 15px 0;
     margin-bottom: 20px;
     color: white;
@@ -918,10 +923,10 @@ footer a:visited{
 }
 
 .about-skills1 h3, .about-skills2 h3{
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     margin: 0 auto;
-    font-size: 2.2em;
+    font-size: 2.1em;
     color: white;
     padding: 5px 0;
     /* border: 2px solid rgb(87, 136, 192); */
@@ -1188,7 +1193,8 @@ footer a:visited{
 .contact-form h3{
     background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ;
     width: 100%;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
+    font-size: 2.38em;
     padding: 15px 0;
     color: white;
     /* border-radius: 25px 25px 0 0; */
@@ -1197,10 +1203,10 @@ footer a:visited{
 
 
 .contact-aside-title{
-    font-family: 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     margin: 0 auto;
-    font-size: 2.2em;
+    font-size: 2.1em;
     color: white;
     padding: 5px 0;
     /* border: 2px solid rgb(87, 136, 192); */
@@ -1219,8 +1225,8 @@ footer a:visited{
 }
 
 .contact-aside h4{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
     padding: 5px;
     /* border: 2px solid rgb(87, 136, 192); */
     color: white;
@@ -1232,7 +1238,7 @@ footer a:visited{
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
-    line-height: 1em;
+    line-height: 1.3em;
 }
 
 .contact-aside p{
@@ -1438,13 +1444,13 @@ input[type=text], select, textarea, #email {
     }
 
     header h1{
-        font-size: 2.2em;
-        line-height: 1.3em;
+        font-size: 2em;
+        line-height: 1.35em;
     }
 
     footer h1{
-        font-size: 2.2em;
-        line-height: 1.2em;
+        font-size: 2.1em;
+        line-height: 1.3em;
         margin-top: 150px;
     }
     footer{
@@ -1546,13 +1552,13 @@ input[type=text], select, textarea, #email {
     }
 
     header h1{
-        font-size: 1.8em;
-        line-height: 1.1em;
+        font-size: 1.6em;
+        line-height: 1.3em;
     }
 
     footer h1{
-        font-size: 1.8em;
-        line-height: 1.1em;
+        font-size: 1.7em;
+        line-height: 1.2em;
     }
 
     .logo{
