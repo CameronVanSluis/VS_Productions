@@ -1568,6 +1568,10 @@ input[type=text], select, textarea, #email {
     .logo{
         top: 13px;
     }
+
+    .home-header{
+        height: 272px;
+    }
 }
 
 /* Media Queries End */
