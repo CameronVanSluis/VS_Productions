@@ -150,8 +150,8 @@ header a:visited{
     outline: none; /* Remove outline */
     background: none;
     background-image: url(../img/TitleBackground8-2.svg);
-    width: 76px;
-    height: 66px;
+    width: 60px;
+    height: 52px;
     cursor: pointer; /* Add a mouse pointer on hover */
     transition: .1s ease-in-out;
   }
