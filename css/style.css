@@ -108,6 +108,7 @@ header h1{
 
 .current-tab{
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .non-current-tab{
