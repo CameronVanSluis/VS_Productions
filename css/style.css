@@ -456,7 +456,7 @@ section a:visited{
     /* background-image: linear-gradient(rgb(128, 176, 230), rgb(8, 33, 61)) ; */
     background-color: #000066;
     color: white;
-    /* border-bottom: 4px solid #7393B7; */
+    border-bottom: 3px solid white;
     margin-top: 0;
     padding: 12px 20px 12px 20px;
     text-align: center;
@@ -465,6 +465,8 @@ section a:visited{
     line-height: 35px;
     /* border-radius: 50px 50px 0 0; */
 }
+
+
 
 .modal-content-smalltext{
     font-size: .8em;
@@ -1598,13 +1600,18 @@ input[type=text], select, textarea, #email {
         height: 315px;
     }
     .home-header{
-        height: 281px;
+        height: 221px;
+        padding-top: 0;
     }
     header h1{
         margin-top: 60px;
     }
     .my-work-header{
-        height: 385px;
+        height: 330px;
+        padding-top: 0;
+    }
+    .trigger{
+        top: 13px;
     }
 }
 
@@ -1634,8 +1641,28 @@ input[type=text], select, textarea, #email {
     }
 
     .home-header{
-        height: 272px;
+        height: 212px;
     }
+
+    .my-work-header{
+        height: 303px;
+    }
+}
+
+
+@media (max-width: 500px){
+    main{
+        width: 100%;
+    }
+    .my-work-title, .my-work-title2, #my-work2, .my-work, .about-container, .contact-container2{
+        border: none;
+    }
+    .photo1-2, .figure1, .figure3, .landing{
+        border-left: none;
+        border-right: none;
+    }
+   
+    
 }
 
 /* Media Queries End */
@@ -1746,13 +1773,22 @@ input[type=text], select, textarea, #email {
 
 .trigger {
     position: absolute;
-    top: 41px;
-    right: 25px;
+    top: 39px;
+    right: 12px;
     display: block;
     min-height: 35px;
     min-width: 76px;
     background-image: url(../img/TitleBackground6-3.svg);
     z-index: 200;
+}
+
+@media (max-width: 500px){
+    .trigger{
+        top: 14px;
+    }
+    .nav_mobile{
+        padding-top: 50px;
+    }
 }
 
 @media (min-width: 621px) {
