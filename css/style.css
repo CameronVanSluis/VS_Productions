@@ -365,7 +365,7 @@ header a:visited{
 
 .animation, .photoshop, .illustrator, .photography, .wordpress{
     width: 200px;
-    margin: 30px 20px 50px 20px;
+    margin: 20px 20px 50px 20px;
 
 }
 
@@ -1661,8 +1661,18 @@ input[type=text], select, textarea, #email {
         border-left: none;
         border-right: none;
     }
+
+ 
+   
    
     
+}
+
+@media (max-width: 983px){
+    .animation, .photoshop, .illustrator, .wordpress{
+        margin-bottom: 25px;
+        margin-top: 15px
+    }
 }
 
 /* Media Queries End */
