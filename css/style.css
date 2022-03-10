@@ -472,6 +472,10 @@ section a:visited{
     font-size: .8em;
 }
 
+.modal-content-link{
+    font-size: 1em;
+    text-decoration: underline;
+}
 
 /* My Work Section End */
 
